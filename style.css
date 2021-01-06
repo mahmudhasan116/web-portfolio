@@ -16,20 +16,6 @@ p{
     margin-bottom: 10%;
     margin-right: 2%;
 }
-.one-third{
-   border: 1px solid red;
-}
-.one-third img{
-    width: 100%;
-}
-.one-third p{
-    padding: 3% 3%;
-}
-.projects{
-   
-
-
-}
 h1{
     font-size: 70px;
     font-weight: 200px;
@@ -54,4 +40,41 @@ h2{
     margin-top: 40px;
     border-radius: 5px;
     color: white
+}
+
+
+
+.one-third img{
+ width: 100%;
+}
+.one-third{
+    float: left;
+    width: 25%;
+    margin: 3% 3%;
+    padding: 1% 1%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 20px grey;
+
+}
+.all{
+    height:600px; 
+}
+.all h2{
+    text-align: center;
+}
+.work{
+width: 80%;
+margin-left: 8%;
+margin-right: 8%;
+
+position: absolute;
+}
+.inq{
+    float: left;
+    padding: 20px 20px;
+    background-image: url("images/shape.png");
+    background-repeat: no-repeat;
+    widows: 70%;
+    height: 250px;
+    
 }
