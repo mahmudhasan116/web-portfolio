@@ -1,0 +1,57 @@
+body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    margin: 2% 2%;
+}
+p{
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+}
+.one-third{
+   border: 1px solid red;
+}
+.one-third img{
+    width: 100%;
+}
+.one-third p{
+    padding: 3% 3%;
+}
+.projects{
+   
+
+
+}
+h1{
+    font-size: 70px;
+    font-weight: 200px;
+    color: #484A64;
+    padding: 1px 1px;
+    margin: 1px 1px;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 50px;
+}
+.name-highlight{
+    color: #ff247a;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(#F49560, #F9BE61);
+    padding: 20px 50px;
+    margin-top: 40px;
+    border-radius: 5px;
+    color: white
+}
