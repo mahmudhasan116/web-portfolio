@@ -1,12 +1,13 @@
 body{
     
     font-family: 'Roboto', sans-serif;
+    margin: 0px 0px;
 }
 section{
-    margin: 2% 2%;
+    margin: 0% 0%;
 }
 p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .half-width{
     width: 40%;
@@ -15,6 +16,9 @@ p{
     padding-left: 2%;
     margin-bottom: 10%;
     margin-right: 2%;
+}
+.half-width p{
+    margin-bottom: 60px;
 }
 h1{
     font-size: 70px;
@@ -37,7 +41,7 @@ h2{
     text-decoration: none;
     background-image: linear-gradient(#F49560, #F9BE61);
     padding: 20px 50px;
-    margin-top: 40px;
+
     border-radius: 5px;
     color: white
 }
@@ -49,18 +53,30 @@ h2{
 }
 .one-third{
     float: left;
-    width: 25%;
-    margin: 3% 3%;
-    padding: 1% 1%;
+    width: 28%;
+    padding:1% 1%;
+    margin: 2% 1.6%;
     border-radius: 15px;
     box-shadow: 3px 3px 20px grey;
-
+    background-color: white;
+}
+.one-third p{
+    padding:0% 2%;
+}
+.one-third h3{
+    text-align: center;
+}
+.one-third-container{
+    margin:2% 8%;
 }
 .all{
     height:600px; 
 }
 .all h2{
     text-align: center;
+    padding: 5% 5% 0% 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100px;
 }
 .work{
 width: 80%;
@@ -69,12 +85,32 @@ margin-right: 8%;
 
 position: absolute;
 }
-.inq{
+.bg{
     float: left;
-    padding: 20px 20px;
     background-image: url("images/shape.png");
     background-repeat: no-repeat;
-    widows: 70%;
-    height: 250px;
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     
+}
+.inq1{
+    float: left;
+    padding: 2% 2%;
+    margin: 20% 2%;
+    color: white;
+}
+.inq2{
+    float: right;
+    padding: 10% 2%;
+    margin: 20% 2%;
+}
+.work{
+    margin-left: 18%;
+}
+.bg1{
+    background-color: #F2F5FF;
+    width: 100%;
+    height: 115%;  
 }
